@@ -6,7 +6,7 @@
 >   - Trained the model on just 20,000 mostly clean images of one pose
 
 2. Adapting the StyleGAN code to run on floydhub and training the model
->   - Trained  20,000 images for 2 days and 20 hours on one Nvidia Tesla K100 at an end resolution of 512x51
+>   - Trained  20,000 images for 2 days and 20 hours on one Nvidia Tesla K100 at an end resolution of 512x512
 
 Here are some of my results!
 
