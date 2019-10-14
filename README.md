@@ -1,3 +1,21 @@
+# Wills StyleGAN for the fashion industry. This project contained two parts.
+
+# 1. Building a large and clean fashion dataset.
+#   - Scraped google images and other sites, accumulated 200,000 images
+#   - Built Tensorflow classifier to clean bad images and sort the good ones by pose
+#   - Trained the model on just 20,000 mostly clean images of one pose
+
+# 2. Adapting the StyleGAN code to run on floydhub and training the model
+#   - Trained  20,000 images for 2 days and 20 hours on one Nvidia Tesla K100 at an end resolution of 512x51
+
+# Results Below!
+
+![Teaser image](./example.png)
+![Teaser image](./figure05-noise-components.png)
+![Teaser image](./figure03-style-mixing2.png)
+**Picture:** *These people are not real &ndash; they were produced by our generator that allows control over different aspects of the image.*
+
+
 ## StyleGAN &mdash; Official TensorFlow Implementation
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg?style=plastic)
 ![TensorFlow 1.10](https://img.shields.io/badge/tensorflow-1.10-green.svg?style=plastic)
