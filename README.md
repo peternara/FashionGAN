@@ -1,4 +1,4 @@
-# Wills StyleGAN for the fashion industry. This project contained two parts.
+# FashionGan generates using ML to generate orignal Fashion peices (based on StyleGAN) 
 
 1. Building a large and clean fashion dataset.
 >   - Scraped google images and other sites, accumulated 200,000 images
